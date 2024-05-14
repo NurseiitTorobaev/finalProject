@@ -12,10 +12,13 @@ This code is useful for pet's adoption centres. This database allows adding, rem
 
 ## CODE OVERVIEW
 
-To store data about pet's code use data structures. Each pet has it's own name, age, breed and description, also they can be marked if pet is adopted. 
+To store data about pet's code use data structures. Each pet has it's own name, age, breed and description, also they can be marked if pet is adopted.
+
     - Pet: Represents individual pets with attributes such as name, breed, age, description, adoption status, and adoption date.
     - Date: A struct to represent dates, used for adoption dates.
+    
 Functions:
+
     - printMenu(): Displays the main menu options.
     - newPet(): Adds new pet giving it a name, breed, age and etc.
     - adoptPet(): Marks pet as adopted and writes adoption date.
